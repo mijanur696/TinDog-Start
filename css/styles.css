@@ -1,0 +1,184 @@
+
+#title{
+    background-color: #ff4c68;
+}
+
+
+h1{
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% 10%;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+   
+    
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+       
+/* download button */
+
+.download-button{
+    margin: 6% 3% 0 0;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    
+}
+
+.icon{
+    color: #ef7181;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#features{
+    padding: 3% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.features-box > h3{
+    font-size: 23px;
+    font-weight: bolder;
+}
+.features-box > p {
+    color: #8f8f8f;
+}
+
+
+/* testimonials section */
+
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #f1f1f1;
+
+}
+.carousel-item{
+padding: 7% 15%;
+}
+
+#testimonials > h2{
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 100px;
+    margin: 20px;
+}
+
+/* press section */
+
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+
+/* Media Quary */
+
+@media (max-width:991px){
+
+#title{
+    text-align: center;
+}
+
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        padding-top: 10px;
+    }
+
+}
+
+
+
+/* call to Action section */
+
+#cta{
+    padding: 5% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#cta > h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#cta > button{
+    margin:60px 10px 10px;
+}
+
+
+/* footer section */
+
+#footer{
+    padding: 5% 0;
+    text-align: center;
+}
+#footer > p{
+    color:#8f8f8f;
+}
+
+.ficon{
+    margin: 0 5px;
+}
